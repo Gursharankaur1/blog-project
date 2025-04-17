@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;       
+    background-image: url(https://i.pinimg.com/236x/bf/e1/bc/bfe1bcabe4a5e23fb852b2131e7ecf6d.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+   
+}
+
+nav{
+height: 60px;
+background-color:rgb(38, 128, 0);
+margin-top:30px;
+color:azure;
+font-size: 20px;
+
+}
+
+#class{
+
+float: right;
+display:inline;
+color:floralwhite;
+
+}  
+a{
+margin-right: 50px;
+color:floralwhite;
+padding: 10px;   
+} 
+
+.nature{
+text-align: center;
+color:black;
+font-size: 2.5em;
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-shadow: 3px 3px 3px;
+color:darkgreen
+}
+
+
+.conatiner{
+width: 100vw;
+height: 100vh;
+display:flex;
+justify-content: space-around;
+flex-direction: row;   
+}
+.card{
+width: 400px;
+height:400px;
+background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+display: flex;
+flex-direction:column;
+align-items: center;
+border-radius: 10px;
+}
+
+p{
+color:black;
+font-size:30px;
+ 
+}
+.para1{
+color:#0ba360;
+text-align: center;
+text-shadow:1px 1px 1px ;
+}
+.card:hover{
+transform: scale(1.05);
+}
+
+a:hover{
+   color:chartreuse;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.832);
+    color:azure;
+    width: cover;
+    height:20px;
+    padding: 50px;
+}
+.button{
+background-color:black;
+color: white; 
+padding: 15px 32px; 
+text-align: center;
+font-size: 16px; 
+margin-left:100px; 
+border-radius: 12px; 
+}
+.prob{
+background-color:black;
+color: white; 
+padding: 15px 32px; 
+text-align: center;
+font-size: 16px; 
+margin-right:40px; 
+border-radius: 12px;  
+
+}
+.prob:hover{
+background-color: #45a049; 
+}
+
+
+.button:hover {
+background-color: #45a049; 
+}
+.extra{
+width: 700px;
+height:200px;
+background-color: white;
+display: flex;
+flex-direction: column;
+margin-left: 400px;
+border-radius: 10px;
+background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+.store{
+background-color:darkgreen;
+color: white; 
+padding: 15px;
+text-align: center; 
+font-size: 16px; 
+margin-left:260px;  
+border-radius: 12px;
+
+}
+.store:hover{
+transform: scale(1.2);
+}
+@keyframes nature {
+to {
+    opacity: 5;
+}
+}
+
+/* Keyframes for slide-in animation */
+@keyframes nature {
+to {
+    transform: translateX(50);
+}
+}
+@keyframes bounce {
+0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+}
+40% {
+    transform: translateY(-30px);
+}
+60% {
+    transform: translateY(-15px);
+}
+}
